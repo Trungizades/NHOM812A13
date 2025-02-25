@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>5Tee Bakery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">5Tee Bakery</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Giới Thiệu</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Liên Hệ</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="C:\Users\Admin\Pictures\New folder\Capture.png" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge w3-tag w3-light-grey">Tiệm Bánh Số 1 Hoài Đức</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <video class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750" controls>
+<source src="C:\Users\Admin\Downloads\video.mp4" type="video/mp4">
+
+</video>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Giới thiệu bề tiệm bánh</h1><br>
+      <h5 class="w3-center">Truyền thống từ 2007</h5>
+      <p class="w3-large">Chào mừng bạn đến với 5Tee Bakery, ngôi nhà của những chiếc bánh, sôcôla và đồ ngọt ngon nhất ở Hoài Đức. Tiệm bánh truyền thống của chúng tôi là một tổ chức văn hóa và ẩm thực đã làm hài lòng người dân địa phương cũng như khách du lịch kể từ năm 2007.
+. Ở đây chúng tôi chỉ sử dụng nguyên liệu <span class="w3-tag w3-light-grey">theo mùa</span>.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Welcome to 5Tee Bakery, home of the finest cakes, chocolates and sweets in Hoai Duc. Our traditional bakery is a cultural and culinary institution that has delighted locals and tourists alike since 2007. Here we use only seasonal ingredients.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Tart trứng</h4>
+      <p class="w3-text-grey">Một hộp bánh nhân sữa trứng tươi mang hương vị ngọt ngào, thơm béo
+ chỉ với giá 5$</p><br>
+    
+      <h4>Chocolate Soufflé</h4>
+      <p class="w3-text-grey">Ngọt ngào, mềm xốp và “nhẹ bẫng” khi bỏ vào miệng
+ giá chỉ 4$</p><br>
+    
+      <h4>Tiramisu</h4>
+      <p class="w3-text-grey">Ngọt thanh, tan nhẹ trong miệng là vị đắng của cacao, 1 phần chỉ 8$</p><br>
+    
+      <h4>Cupcake</h4><p class="w3-text-grey">Mềm xốp, ngọt ngào hoà cùng vị chua nhẹ của dâu, 6$ cho 1 phần</p><br>
+    
+     
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="C:\Users\Admin\Pictures\anh'\menu.jpg" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Liên hệ</h1><br>
+    <p>Đừng ngần ngại liên hệ với chúng tôi qua số điện thoại <span style="color: blue;">0123456789</span> hoặc email <span style="color: blue;">5Teebakery@gmail.com</span>. Ngoài ra bạn có thể mua hàng qua trang web bán hàng của chúng tôi <a href="5T.html"> <span style="color: blue;">tại đây</span></a><br> Hoặc bạn có thể order qua form:
+</p>
+    <form action="/action_page.php" target="_blank">
+         <p><input class="w3-input w3-padding-16" type="text" placeholder="Tên người nhận" required name="Name"></p>
+         <p><input class="w3-input w3-padding-16" type="text" placeholder="Địa chỉ" required name="Name"></p>
+         <p class="w3-text-grey"> Chọn món:</p>
+  <input type="checkbox" id="mon1" name="mon1" value="Tiramisu">
+  <label for="mon1"> Tiramisu</label><br>
+  <p><input class="w3-input w3-padding-16" type="number" placeholder="Số lượng" required name="Number"></p>
+  <input type="checkbox" id="mon2" name="mon2" value="tart">
+  <label for="mon2"> Tart Trứng</label><br>
+  <p><input class="w3-input w3-padding-16" type="number" placeholder="Số lượng" required name="Number"></p>
+  <input type="checkbox" id="mon3" name="mon3" value="cup">
+  <label for="mon3"> Cupcake</label><br>
+  <p><input class="w3-input w3-padding-16" type="number" placeholder="Số lượng" required name="Number"></p>
+  <input type="checkbox" id="mon4" name="mon4" value="choco">
+  <label for="mon4"> Chocolate Soufflé</label><br>
+  <p><input class="w3-input w3-padding-16" type="number" placeholder="Số lượng" required name="Number"></p>
+  <p><button class="w3-button w3-light-grey w3-section" type="submit">GỬI</button></p>
+ 
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Thực hiện bởi <b>nhóm 8 12a13</b></p>
+</footer>
+
+</body>
+</html>
